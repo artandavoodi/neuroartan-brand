@@ -1,4 +1,26 @@
 {
+  "navigation": [
+    {
+      "label": "Logo",
+      "href": "/logo/"
+    },
+    {
+      "label": "Fundamentals",
+      "href": "/fundamentals/"
+    },
+    {
+      "label": "Color & Typography",
+      "href": "/color-typography/"
+    },
+    {
+      "label": "Digital",
+      "href": "/digital/"
+    },
+    {
+      "label": "Public Assets",
+      "href": "/public-assets/"
+    }
+  ],
   "home": {
     "eyebrow": "Neuroartan Brand",
     "title": "Public identity resources for Neuroartan.",
@@ -33,6 +55,103 @@
     "presence": {
       "title": "Brand presence",
       "description": "Neuroartan is a cognitive systems company developing ICOS, a voice-trained cognitive operating system for memory, reflection, continuity, and structured intelligence. The brand identity supports a minimal, precise, and future-facing public presence for the company and its product ecosystem."
+    }
+  },
+  "pages": {
+    "logo": {
+      "eyebrow": "Logo",
+      "title": "Neuroartan logo system.",
+      "intro": "The Neuroartan logo system provides the primary public identity mark for company recognition, product association, and external brand references.",
+      "sections": [
+        {
+          "title": "Primary mark",
+          "description": "Use the primary Neuroartan mark for public brand references, official identity listings, and core company presentation."
+        },
+        {
+          "title": "Symbol usage",
+          "description": "Use the symbol when space is limited or when the surrounding context already identifies Neuroartan."
+        },
+        {
+          "title": "Clear presentation",
+          "description": "Keep the logo visually isolated, readable, and free from decorative distortion, excessive effects, or unrelated visual treatment."
+        }
+      ]
+    },
+    "fundamentals": {
+      "eyebrow": "Fundamentals",
+      "title": "Brand foundations.",
+      "intro": "Neuroartan is positioned as a cognitive systems company focused on ICOS, governed intelligence, interface architecture, and profile-based continuity.",
+      "sections": [
+        {
+          "title": "Brand purpose",
+          "description": "Create a precise public identity for cognitive systems, continuity, memory, reflection, and structured intelligence."
+        },
+        {
+          "title": "Public character",
+          "description": "The brand should remain minimal, intelligent, calm, future-facing, and technically credible."
+        },
+        {
+          "title": "Communication rule",
+          "description": "Public language should describe Neuroartan as a new cognitive systems and product ecosystem without theatrical or exaggerated claims."
+        }
+      ]
+    },
+    "color-typography": {
+      "eyebrow": "Color & Typography",
+      "title": "Visual language system.",
+      "intro": "The visual system uses restrained contrast, quiet surfaces, precise typography, and token-governed spacing to support a professional public identity.",
+      "sections": [
+        {
+          "title": "Color",
+          "description": "Use a minimal neutral palette with controlled contrast and calm surface hierarchy."
+        },
+        {
+          "title": "Typography",
+          "description": "Use Apple-native system typography where possible, with careful weight, spacing, and scale discipline."
+        },
+        {
+          "title": "Token discipline",
+          "description": "Color, spacing, radius, typography, and surface values should be governed through shared tokens rather than local visual exceptions."
+        }
+      ]
+    },
+    "digital": {
+      "eyebrow": "Digital",
+      "title": "Digital brand behavior.",
+      "intro": "Neuroartan digital surfaces should present the brand with clarity, minimal motion, strong readability, and source-owned visual assets.",
+      "sections": [
+        {
+          "title": "Website usage",
+          "description": "Use the brand identity consistently across public websites, product pages, documentation, and profile surfaces."
+        },
+        {
+          "title": "Interface usage",
+          "description": "Digital layouts should be quiet, structured, responsive, and aligned with the broader Neuroartan interface system."
+        },
+        {
+          "title": "Asset ownership",
+          "description": "Icons and identity assets should come from the synced public registry and should not be duplicated manually across repositories."
+        }
+      ]
+    },
+    "public-assets": {
+      "eyebrow": "Public Assets",
+      "title": "Public brand assets.",
+      "intro": "This section will provide public-facing Neuroartan identity assets for reference, listings, discovery, and approved external use.",
+      "sections": [
+        {
+          "title": "Logo files",
+          "description": "Provide accessible logo references for public listings, press references, and brand discovery pages."
+        },
+        {
+          "title": "Usage references",
+          "description": "Publish clear rules for correct public usage, visual spacing, and identity consistency."
+        },
+        {
+          "title": "Discovery metadata",
+          "description": "Support search engines, brand directories, and external platforms with clean metadata and structured public identity information."
+        }
+      ]
     }
   }
 }
