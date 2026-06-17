@@ -1,24 +1,85 @@
 :root {
-  --brand-color-bg: #f7f4ee;
-  --brand-color-surface: rgba(255, 255, 255, 0.72);
-  --brand-color-text: #171717;
-  --brand-color-muted: rgba(23, 23, 23, 0.68);
-  --brand-color-line: rgba(23, 23, 23, 0.12);
-  --brand-color-accent: #171717;
+  color-scheme: light;
 
-  --brand-font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --text-primary-color: #171717;
+  --text-secondary-color: rgba(23, 23, 23, 0.68);
+  --text-tertiary-color: rgba(23, 23, 23, 0.48);
+  --border-color: rgba(23, 23, 23, 0.12);
+  --control-border-color: rgba(23, 23, 23, 0.14);
+  --surface-primary: #f7f4ee;
+  --surface-secondary: rgba(255, 255, 255, 0.72);
+  --surface-elevated: rgba(255, 255, 255, 0.86);
+  --control-surface: rgba(255, 255, 255, 0.64);
+  --control-surface-hover: rgba(255, 255, 255, 0.82);
 
-  --brand-space-xs: 0.5rem;
-  --brand-space-sm: 0.75rem;
-  --brand-space-md: 1rem;
-  --brand-space-lg: 1.5rem;
-  --brand-space-xl: 2rem;
-  --brand-space-2xl: 3rem;
-  --brand-space-3xl: 5rem;
+  --font-base: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-size-body-1: 1rem;
+  --font-size-body-2: 0.875rem;
+  --font-size-caption: 0.8125rem;
 
-  --brand-radius-sm: 0.75rem;
-  --brand-radius-md: 1rem;
-  --brand-radius-lg: 1.5rem;
+  --spacing-none: 0;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 5rem;
+
+  --shape-card-radius: 1.5rem;
+  --shape-control-radius: 999rem;
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+
+  --border-width-hairline: 1px;
+  --accessibility-density-scale: 1;
+
+  --interaction-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --interaction-duration-fast: 160ms;
+  --interaction-duration-standard: 260ms;
+
+  --shadow-soft: 0 24px 80px rgba(23, 23, 23, 0.08);
+  --shadow-card: 0 18px 54px rgba(23, 23, 23, 0.07);
+
+  --brand-color-bg: var(--surface-primary);
+  --brand-color-surface: var(--surface-secondary);
+  --brand-color-text: var(--text-primary-color);
+  --brand-color-muted: var(--text-secondary-color);
+  --brand-color-line: var(--border-color);
+  --brand-color-accent: var(--text-primary-color);
+
+  --brand-font-sans: var(--font-base);
+
+  --brand-space-xs: var(--spacing-xs);
+  --brand-space-sm: var(--spacing-sm);
+  --brand-space-md: var(--spacing-md);
+  --brand-space-lg: var(--spacing-lg);
+  --brand-space-xl: var(--spacing-xl);
+  --brand-space-2xl: var(--spacing-2xl);
+  --brand-space-3xl: var(--spacing-3xl);
+
+  --brand-radius-sm: var(--radius-sm);
+  --brand-radius-md: var(--radius-md);
+  --brand-radius-lg: var(--shape-card-radius);
 
   --brand-max-width: 72rem;
+}
+
+html[data-theme-effective="dark"] {
+  color-scheme: dark;
+
+  --text-primary-color: rgba(255, 255, 255, 0.94);
+  --text-secondary-color: rgba(255, 255, 255, 0.66);
+  --text-tertiary-color: rgba(255, 255, 255, 0.48);
+  --border-color: rgba(255, 255, 255, 0.12);
+  --control-border-color: rgba(255, 255, 255, 0.14);
+  --surface-primary: #050505;
+  --surface-secondary: rgba(255, 255, 255, 0.055);
+  --surface-elevated: rgba(255, 255, 255, 0.078);
+  --control-surface: rgba(255, 255, 255, 0.07);
+  --control-surface-hover: rgba(255, 255, 255, 0.105);
+  --shadow-soft: 0 24px 80px rgba(0, 0, 0, 0.34);
+  --shadow-card: 0 18px 54px rgba(0, 0, 0, 0.28);
 }
