@@ -1,172 +1,53 @@
-<!-- =============================================================================
-00) FILE INDEX
-01) DOCUMENT IDENTITY
-02) HEAD
-03) BODY SHELL
-04) CANONICAL SHARED MOUNTS
-05) PAGE FRAME
-06) HERO SECTION
-07) RESOURCE CENTER OVERVIEW GRID
-08) FOUNDATION BLOCK
-09) GOVERNANCE BLOCK
-10) PUBLIC PROPAGATION BLOCK
-11) SCRIPT LAYER
-============================================================================= -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- ==========================================================================
-  01) DOCUMENT IDENTITY
-  ========================================================================== -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Neuroartan Brand Development</title>
-  <meta name="description" content="Internal sovereign development layer for Neuroartan Brand architecture, shared-source consumption, and public resource-center planning.">
+  <title>Neuroartan Brand</title>
+  <meta name="description" content="Neuroartan Brand is the public identity resource for Neuroartan logos, visual identity, brand foundations, digital usage, and public brand assets.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://brand.neuroartan.com/">
 
-  <!-- ==========================================================================
-  02) HEAD
-  ========================================================================== -->
-  <link rel="stylesheet" href="../../../../website/docs/assets/css/core/style.css">
-  <link rel="stylesheet" href="../../assets/css/systems/brand-shell.css">
-  <link rel="stylesheet" href="../../assets/css/pages/brand/brand.css">
+  <meta property="og:title" content="Neuroartan Brand">
+  <meta property="og:description" content="Public Neuroartan brand identity resources, logo guidance, visual foundations, and digital asset direction.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://brand.neuroartan.com/">
+  <meta property="og:image" content="https://brand.neuroartan.com/registry/icons/public/assets/core/identity/brand/neuroartan/logo-plain.svg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Neuroartan Brand">
+  <meta name="twitter:description" content="Public Neuroartan brand identity resources, logo guidance, visual foundations, and digital asset direction.">
+  <meta name="twitter:image" content="https://brand.neuroartan.com/registry/icons/public/assets/core/identity/brand/neuroartan/logo-plain.svg">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://brand.neuroartan.com/#website",
+      "name": "Neuroartan Brand",
+      "url": "https://brand.neuroartan.com/",
+      "description": "Public Neuroartan brand identity resources, logo guidance, visual foundations, and digital asset direction.",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://neuroartan.com/#organization",
+        "name": "Neuroartan",
+        "url": "https://neuroartan.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://brand.neuroartan.com/registry/icons/public/assets/core/identity/brand/neuroartan/logo-plain.svg"
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/core/style.css">
+  <script type="module" src="/assets/js/core/app.js"></script>
 </head>
-<body class="site-body dark-mode brand-page-shell" data-brand-page="brand-index">
-  <!-- ==========================================================================
-  03) BODY SHELL
-  ========================================================================== -->
-  <div class="brand-shell__inner brand-page-shell__inner">
+<body data-brand-page="home">
+  <header data-fragment="brand-header"></header>
 
-    <!-- ========================================================================
-    04) CANONICAL SHARED MOUNTS
-    ======================================================================== -->
-    <div id="menu-mount" data-include="menu"></div>
+  <main id="brand-main" class="brand-main" data-brand-home></main>
 
-    <main class="brand-shell__main brand-page-shell__main">
-      <!-- ======================================================================
-      05) PAGE FRAME
-      ====================================================================== -->
-      <div class="brand-page-frame">
-
-        <!-- ====================================================================
-        06) HERO SECTION
-        ==================================================================== -->
-        <section class="brand-page-hero brand-section-stack">
-          <div class="brand-section-header brand-content-rail brand-content-rail--wide">
-            <span class="brand-page-eyebrow">Brand Development Layer</span>
-            <h1 class="brand-page-title">Shared Foundation. Sovereign Brand Expression.</h1>
-            <p class="brand-page-intro">
-              This layer exists to build Neuroartan Brand architecture in a way that remains visually expressive,
-              structurally governed, and fully aligned with the canonical website source foundation.
-            </p>
-          </div>
-        </section>
-
-        <!-- ====================================================================
-        07) RESOURCE CENTER OVERVIEW GRID
-        ==================================================================== -->
-        <section class="brand-page-section brand-section-stack">
-          <div class="brand-section-header brand-content-rail brand-content-rail--wide">
-            <span class="brand-page-eyebrow">Resource Center Architecture</span>
-            <h2 class="brand-section-title">Current Development Scope</h2>
-            <p class="brand-section-copy">
-              The Brand sovereign layer should inherit approved shared primitives from the canonical website asset layer,
-              while preserving Brand-owned page structure, page styling, page behavior, and future public resource-center experience.
-            </p>
-          </div>
-
-          <div class="brand-resource-grid">
-            <article class="brand-resource-card brand-resource-card--half">
-              <span class="brand-resource-card__meta">Canonical Source</span>
-              <h3 class="brand-resource-card__title">Shared Foundation Consumption</h3>
-              <p class="brand-resource-card__text">
-                Tokens, base runtime helpers, translation-engine support, and approved shared assets remain canonical in the website docs asset layer.
-              </p>
-            </article>
-
-            <article class="brand-resource-card brand-resource-card--half">
-              <span class="brand-resource-card__meta">Sovereign Ownership</span>
-              <h3 class="brand-resource-card__title">Brand Experience Layer</h3>
-              <p class="brand-resource-card__text">
-                Brand keeps ownership of its own page architecture, expressive menu exception, future public resource-center pages, and brand-specific implementation logic.
-              </p>
-            </article>
-
-            <article class="brand-resource-card brand-resource-card--third">
-              <span class="brand-resource-card__meta">Governance</span>
-              <h3 class="brand-resource-card__title">Non-Duplication Discipline</h3>
-              <p class="brand-resource-card__text">
-                Shared primitives should not be recreated locally when governed shared consumption is the correct architectural choice.
-              </p>
-            </article>
-
-            <article class="brand-resource-card brand-resource-card--third">
-              <span class="brand-resource-card__meta">Exception</span>
-              <h3 class="brand-resource-card__title">Expressive Menu Family</h3>
-              <p class="brand-resource-card__text">
-                Brand currently uses the more artistic website menu family as a controlled source exception rather than the institutional menu family.
-              </p>
-            </article>
-
-            <article class="brand-resource-card brand-resource-card--third">
-              <span class="brand-resource-card__meta">Next Phase</span>
-              <h3 class="brand-resource-card__title">Public Resource Translation</h3>
-              <p class="brand-resource-card__text">
-                Public-facing Brand docs should be built only after the development layer is structurally stable and the publication subset is explicitly approved.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <!-- ====================================================================
-        08) FOUNDATION BLOCK
-        ==================================================================== -->
-        <section class="brand-page-section brand-section-stack">
-          <div class="brand-section-separator"></div>
-          <div class="brand-content-rail brand-note-block">
-            <span class="brand-page-eyebrow">Foundation Rule</span>
-            <p class="brand-section-copy">
-              The website docs asset layer is the canonical shared-source domain for approved cross-layer primitives.
-              Brand consumes that shared foundation instead of forking it.
-            </p>
-          </div>
-        </section>
-
-        <!-- ====================================================================
-        09) GOVERNANCE BLOCK
-        ==================================================================== -->
-        <section class="brand-page-section brand-section-stack">
-          <div class="brand-content-rail brand-note-block">
-            <span class="brand-page-eyebrow">Governance Rule</span>
-            <p class="brand-section-copy">
-              Shared foundation and sovereign implementation must remain visibly separate.
-              The goal is to avoid both hidden dependency chaos and needless duplication.
-            </p>
-          </div>
-        </section>
-
-        <!-- ====================================================================
-        10) PUBLIC PROPAGATION BLOCK
-        ==================================================================== -->
-        <section class="brand-page-section brand-section-stack">
-          <div class="brand-content-rail brand-note-block">
-            <span class="brand-page-eyebrow">Propagation Rule</span>
-            <p class="brand-section-copy">
-              The docs layer for Brand will come later.
-              Development must first establish the full internal resource-center structure, controlled source bridges, and approved public-subset logic.
-            </p>
-          </div>
-        </section>
-
-      </div>
-    </main>
-
-    <div id="footer-mount"></div>
-  </div>
-
-  <!-- ========================================================================
-  11) SCRIPT LAYER
-  ======================================================================== -->
-  <script type="module" src="../../../../website/docs/assets/js/core/main.js"></script>
-  <script type="module" src="../../assets/js/pages/brand/brand.js"></script>
+  <footer data-fragment="brand-footer"></footer>
 </body>
 </html>

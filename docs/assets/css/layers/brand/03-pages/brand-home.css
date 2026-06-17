@@ -1,0 +1,42 @@
+.brand-hero {
+  display: grid;
+  gap: var(--brand-space-lg);
+  padding-block: var(--brand-space-3xl);
+}
+
+.brand-eyebrow {
+  margin: 0;
+  color: var(--brand-color-muted);
+  font-size: 0.875rem;
+}
+
+.brand-title {
+  max-inline-size: 48rem;
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 600;
+  letter-spacing: -0.075em;
+  line-height: 0.92;
+}
+
+.brand-intro,
+.brand-section-copy {
+  max-inline-size: 42rem;
+  margin: 0;
+  color: var(--brand-color-muted);
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 1.7;
+}
+
+.brand-section {
+  display: grid;
+  gap: var(--brand-space-xl);
+  padding-block: var(--brand-space-2xl);
+  border-block-start: 1px solid var(--brand-color-line);
+}
+
+.brand-section h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  letter-spacing: -0.04em;
+}

@@ -1,0 +1,38 @@
+{
+  "home": {
+    "eyebrow": "Neuroartan Brand",
+    "title": "Public identity resources for Neuroartan.",
+    "intro": "Neuroartan Brand is the public identity resource for Neuroartan logos, visual foundations, digital usage, and public brand assets. This site provides a clear reference point for brand recognition, external discussion, and discoverable public identity material.",
+    "sections": [
+      {
+        "title": "Logo",
+        "href": "/logo/",
+        "description": "Primary logo references, symbol usage, identity marks, and logo presentation guidance."
+      },
+      {
+        "title": "Fundamentals",
+        "href": "/fundamentals/",
+        "description": "Core identity principles, brand purpose, public positioning, and visual foundation rules."
+      },
+      {
+        "title": "Color & Typography",
+        "href": "/color-typography/",
+        "description": "Color system, typographic direction, contrast logic, and visual consistency rules."
+      },
+      {
+        "title": "Digital",
+        "href": "/digital/",
+        "description": "Digital presentation guidance for websites, profiles, social platforms, and product surfaces."
+      },
+      {
+        "title": "Public Assets",
+        "href": "/public-assets/",
+        "description": "Publicly available logo and identity assets for references, listings, and brand discovery."
+      }
+    ],
+    "presence": {
+      "title": "Brand presence",
+      "description": "Neuroartan is a cognitive systems company developing ICOS, a voice-trained cognitive operating system for memory, reflection, continuity, and structured intelligence. The brand identity supports a minimal, precise, and future-facing public presence for the company and its product ecosystem."
+    }
+  }
+}
