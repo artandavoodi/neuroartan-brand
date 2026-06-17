@@ -45,7 +45,3 @@ svg {
   max-inline-size: 100%;
 }
 
-::selection {
-  background: var(--control-surface-hover);
-  color: var(--text-primary-color);
-}

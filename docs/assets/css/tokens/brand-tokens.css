@@ -8,9 +8,7 @@
   --control-border-color: rgba(23, 23, 23, 0.14);
   --surface-primary: #f7f4ee;
   --surface-secondary: rgba(255, 255, 255, 0.72);
-  --surface-elevated: rgba(255, 255, 255, 0.86);
   --control-surface: rgba(255, 255, 255, 0.64);
-  --control-surface-hover: rgba(255, 255, 255, 0.82);
 
   --font-base: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
   --font-size-body-1: 1rem;
@@ -36,12 +34,20 @@
   --border-width-hairline: 1px;
   --accessibility-density-scale: 1;
 
+  --site-rail-width: 90vw;
+  --site-rail-width-mobile: calc(100vw - 2rem);
+  --site-rail-measure: var(--site-rail-width);
+  --site-rail-measure-mobile: var(--site-rail-width-mobile);
+  --chrome-rail-width: var(--site-rail-width);
+  --chrome-rail-width-mobile: var(--site-rail-width-mobile);
+  --footer-rail-width: var(--site-rail-width);
+  --footer-rail-width-mobile: var(--site-rail-width-mobile);
+
   --interaction-ease-standard: cubic-bezier(0.2, 0, 0, 1);
   --interaction-duration-fast: 160ms;
   --interaction-duration-standard: 260ms;
 
   --shadow-soft: 0 24px 80px rgba(23, 23, 23, 0.08);
-  --shadow-card: 0 18px 54px rgba(23, 23, 23, 0.07);
 
   --brand-color-bg: var(--surface-primary);
   --brand-color-surface: var(--surface-secondary);
@@ -63,8 +69,6 @@
   --brand-radius-sm: var(--radius-sm);
   --brand-radius-md: var(--radius-md);
   --brand-radius-lg: var(--shape-card-radius);
-
-  --brand-max-width: 72rem;
 }
 
 html[data-theme-effective="dark"] {
@@ -77,9 +81,6 @@ html[data-theme-effective="dark"] {
   --control-border-color: rgba(255, 255, 255, 0.14);
   --surface-primary: #050505;
   --surface-secondary: rgba(255, 255, 255, 0.055);
-  --surface-elevated: rgba(255, 255, 255, 0.078);
   --control-surface: rgba(255, 255, 255, 0.07);
-  --control-surface-hover: rgba(255, 255, 255, 0.105);
   --shadow-soft: 0 24px 80px rgba(0, 0, 0, 0.34);
-  --shadow-card: 0 18px 54px rgba(0, 0, 0, 0.28);
 }

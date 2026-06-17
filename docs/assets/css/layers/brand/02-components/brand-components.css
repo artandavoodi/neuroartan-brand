@@ -1,11 +1,4 @@
 .brand-header,
-.brand-footer,
-.brand-main {
-  inline-size: min(100% - calc(var(--spacing-2xl) * 2), var(--brand-max-width));
-  margin-inline: auto;
-}
-
-.brand-header,
 .brand-footer {
   display: flex;
   align-items: center;
@@ -35,17 +28,7 @@
 }
 
 .brand-nav a {
-  padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: var(--shape-control-radius);
-  transition:
-    color var(--interaction-duration-fast) var(--interaction-ease-standard),
-    background var(--interaction-duration-fast) var(--interaction-ease-standard);
-}
-
-.brand-nav a:hover,
-.brand-nav a:focus-visible {
-  color: var(--text-primary-color);
-  background: var(--control-surface);
+  color: inherit;
 }
 
 .brand-logo {
@@ -79,18 +62,6 @@
   border: var(--border-width-hairline) solid var(--border-color);
   border-radius: var(--shape-card-radius);
   background: var(--surface-secondary);
-  box-shadow: none;
-  transition:
-    border-color var(--interaction-duration-fast) var(--interaction-ease-standard),
-    background var(--interaction-duration-fast) var(--interaction-ease-standard),
-    box-shadow var(--interaction-duration-standard) var(--interaction-ease-standard);
-}
-
-.brand-card:hover,
-.brand-card:focus-within {
-  border-color: var(--control-border-color);
-  background: var(--surface-elevated);
-  box-shadow: var(--shadow-card);
 }
 
 .brand-card h3 {
@@ -113,12 +84,6 @@
 }
 
 @media (max-width: 720px) {
-  .brand-header,
-  .brand-footer,
-  .brand-main {
-    inline-size: min(100% - calc(var(--spacing-xl) * 2), var(--brand-max-width));
-  }
-
   .brand-header {
     align-items: flex-start;
     flex-direction: column;
