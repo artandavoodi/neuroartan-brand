@@ -1,3 +1,17 @@
+
 development/
+
 .DS_Store
 **/.DS_Store
+
+# Finder / manual duplicate asset copies
+**/* [0-9].svg
+**/* [0-9].png
+**/* [0-9].jpg
+**/* [0-9].jpeg
+**/* [0-9].webp
+**/* [0-9].ico
+**/* copy.*
+**/*-copy.*
+**/* Copy.*
+**/*-Copy.*
