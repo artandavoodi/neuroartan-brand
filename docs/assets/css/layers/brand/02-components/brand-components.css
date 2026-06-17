@@ -1,7 +1,7 @@
 .brand-header,
 .brand-footer,
 .brand-main {
-  inline-size: min(100% - calc(var(--spacing-xl) * 2), var(--brand-max-width));
+  inline-size: min(100% - calc(var(--spacing-2xl) * 2), var(--brand-max-width));
   margin-inline: auto;
 }
 
@@ -12,6 +12,16 @@
   justify-content: space-between;
   gap: var(--spacing-lg);
   padding-block: var(--spacing-xl);
+}
+
+.brand-header {
+  min-block-size: 5rem;
+}
+
+.brand-footer {
+  justify-content: center;
+  padding-block: var(--spacing-2xl);
+  border-block-start: var(--border-width-hairline) solid var(--border-color);
 }
 
 .brand-nav {
@@ -25,6 +35,7 @@
 }
 
 .brand-nav a {
+  padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: var(--shape-control-radius);
   transition:
     color var(--interaction-duration-fast) var(--interaction-ease-standard),
@@ -34,6 +45,7 @@
 .brand-nav a:hover,
 .brand-nav a:focus-visible {
   color: var(--text-primary-color);
+  background: var(--control-surface);
 }
 
 .brand-logo {
@@ -44,13 +56,13 @@
 }
 
 .brand-logo__mark {
-  inline-size: clamp(2.25rem, 5vw, 3rem);
+  inline-size: clamp(1.625rem, 3.5vw, 2.125rem);
   block-size: auto;
   flex: 0 0 auto;
 }
 
 .brand-logo__typo {
-  inline-size: clamp(9rem, 20vw, 12rem);
+  inline-size: clamp(9.5rem, 21vw, 12.75rem);
   block-size: auto;
   flex: 0 1 auto;
 }
@@ -67,7 +79,7 @@
   border: var(--border-width-hairline) solid var(--border-color);
   border-radius: var(--shape-card-radius);
   background: var(--surface-secondary);
-  box-shadow: var(--shadow-card);
+  box-shadow: none;
   transition:
     border-color var(--interaction-duration-fast) var(--interaction-ease-standard),
     background var(--interaction-duration-fast) var(--interaction-ease-standard),
@@ -78,7 +90,7 @@
 .brand-card:focus-within {
   border-color: var(--control-border-color);
   background: var(--surface-elevated);
-  box-shadow: var(--shadow-soft);
+  box-shadow: var(--shadow-card);
 }
 
 .brand-card h3 {
@@ -102,9 +114,20 @@
 
 @media (max-width: 720px) {
   .brand-header,
-  .brand-footer {
+  .brand-footer,
+  .brand-main {
+    inline-size: min(100% - calc(var(--spacing-xl) * 2), var(--brand-max-width));
+  }
+
+  .brand-header {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .brand-footer {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .brand-nav {
@@ -112,7 +135,7 @@
   }
 
   .brand-logo__typo {
-    inline-size: clamp(7.75rem, 38vw, 10rem);
+    inline-size: clamp(8.25rem, 40vw, 10.75rem);
   }
 
   .brand-card-grid {

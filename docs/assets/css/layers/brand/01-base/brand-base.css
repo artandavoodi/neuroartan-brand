@@ -4,16 +4,30 @@
 
 html {
   min-block-size: 100%;
-  background: var(--brand-color-bg);
-  color: var(--brand-color-text);
-  font-family: var(--brand-font-sans);
+  background: var(--surface-primary);
+  color: var(--text-primary-color);
+  font-family: var(--font-base);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
 }
 
 body {
   min-block-size: 100%;
-  margin: 0;
-  background: var(--brand-color-bg);
-  color: var(--brand-color-text);
+  margin: var(--spacing-none);
+  background: var(--surface-primary);
+  color: var(--text-primary-color);
+  font-family: var(--font-base);
+  font-size: var(--font-size-body-1);
+  line-height: 1.5;
+}
+
+body,
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
 }
 
 a {
@@ -21,7 +35,17 @@ a {
   text-decoration: none;
 }
 
-img {
+button {
+  color: inherit;
+}
+
+img,
+svg {
   display: block;
   max-inline-size: 100%;
+}
+
+::selection {
+  background: var(--control-surface-hover);
+  color: var(--text-primary-color);
 }
