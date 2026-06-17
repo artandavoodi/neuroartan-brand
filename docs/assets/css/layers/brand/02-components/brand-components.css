@@ -24,8 +24,7 @@
   font-size: var(--font-size-body-2);
 }
 
-.brand-nav a,
-.brand-footer__nav a {
+.brand-nav a {
   border-radius: var(--shape-control-radius);
   transition:
     color var(--interaction-duration-fast) var(--interaction-ease-standard),
@@ -33,9 +32,7 @@
 }
 
 .brand-nav a:hover,
-.brand-nav a:focus-visible,
-.brand-footer__nav a:hover,
-.brand-footer__nav a:focus-visible {
+.brand-nav a:focus-visible {
   color: var(--text-primary-color);
 }
 
@@ -46,16 +43,10 @@
   min-inline-size: 0;
 }
 
-.brand-logo__symbol {
-  inline-size: 2rem;
-  block-size: 2rem;
-  flex: 0 0 auto;
-}
-
-.brand-logo__wordmark {
-  inline-size: clamp(7.75rem, 18vw, 10rem);
+.brand-logo__mark {
+  inline-size: clamp(2.25rem, 5vw, 3rem);
   block-size: auto;
-  flex: 0 1 auto;
+  flex: 0 0 auto;
 }
 
 .brand-card-grid {
@@ -103,16 +94,6 @@
   line-height: 1.5;
 }
 
-.brand-footer__nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-  gap: var(--spacing-md);
-  color: var(--text-secondary-color);
-  font-size: var(--font-size-body-2);
-}
-
 @media (max-width: 720px) {
   .brand-header,
   .brand-footer {
@@ -121,10 +102,6 @@
   }
 
   .brand-nav {
-    justify-content: flex-start;
-  }
-
-  .brand-footer__nav {
     justify-content: flex-start;
   }
 
