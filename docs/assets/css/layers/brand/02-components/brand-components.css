@@ -1,7 +1,7 @@
 .brand-header,
 .brand-footer,
 .brand-main {
-  inline-size: min(100% - 2rem, var(--brand-max-width));
+  inline-size: min(100% - calc(var(--spacing-xl) * 2), var(--brand-max-width));
   margin-inline: auto;
 }
 
@@ -47,6 +47,12 @@
   inline-size: clamp(2.25rem, 5vw, 3rem);
   block-size: auto;
   flex: 0 0 auto;
+}
+
+.brand-logo__typo {
+  inline-size: clamp(9rem, 20vw, 12rem);
+  block-size: auto;
+  flex: 0 1 auto;
 }
 
 .brand-card-grid {
@@ -103,6 +109,10 @@
 
   .brand-nav {
     justify-content: flex-start;
+  }
+
+  .brand-logo__typo {
+    inline-size: clamp(7.75rem, 38vw, 10rem);
   }
 
   .brand-card-grid {
