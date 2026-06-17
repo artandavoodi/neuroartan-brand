@@ -28,12 +28,19 @@
   display: inline-flex;
   align-items: center;
   gap: var(--brand-space-sm);
-  font-weight: 600;
+  min-inline-size: 0;
 }
 
-.brand-logo img {
+.brand-logo__symbol {
   inline-size: 2rem;
   block-size: 2rem;
+  flex: 0 0 auto;
+}
+
+.brand-logo__wordmark {
+  inline-size: clamp(7.75rem, 18vw, 10rem);
+  block-size: auto;
+  flex: 0 1 auto;
 }
 
 .brand-card-grid {
@@ -61,6 +68,23 @@
   line-height: 1.6;
 }
 
+.brand-footer__legal {
+  margin: 0;
+  color: var(--brand-color-muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.brand-footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--brand-space-md);
+  color: var(--brand-color-muted);
+  font-size: 0.875rem;
+}
+
 @media (max-width: 720px) {
   .brand-header,
   .brand-footer {
@@ -69,6 +93,10 @@
   }
 
   .brand-nav {
+    justify-content: flex-start;
+  }
+
+  .brand-footer__nav {
     justify-content: flex-start;
   }
 
