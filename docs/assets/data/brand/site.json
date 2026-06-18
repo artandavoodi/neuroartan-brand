@@ -1,155 +1,228 @@
 {
   "navigation": [
     {
+      "label": "Introduction",
+      "href": "/fundamentals/"
+    },
+    {
       "label": "Logo",
       "href": "/logo/"
     },
     {
-      "label": "Fundamentals",
-      "href": "/fundamentals/"
-    },
-    {
-      "label": "Color & Typography",
+      "label": "Typography",
       "href": "/color-typography/"
     },
     {
-      "label": "Digital",
-      "href": "/digital/"
+      "label": "Gallery",
+      "href": "/public-assets/"
     },
     {
-      "label": "Public Assets",
+      "label": "Contact",
       "href": "/public-assets/"
     }
   ],
   "home": {
     "eyebrow": "Neuroartan Brand",
-    "title": "Public identity resources for Neuroartan.",
-    "intro": "Neuroartan Brand is the public identity resource for Neuroartan logos, visual foundations, digital usage, and public brand assets. This site provides a clear reference point for brand recognition, external discussion, and discoverable public identity material.",
+    "title": "Design guidelines",
+    "intro": "These guidelines define how to use the Neuroartan name, logo, wordmark, symbol, typography, imagery, language, and public identity assets. They are intended for partners, publishers, developers, collaborators, media references, directories, and approved external use where Neuroartan must remain clear, consistent, and recognizable.",
     "sections": [
+      {
+        "title": "Introduction",
+        "href": "/fundamentals/",
+        "description": "Start here for the purpose of the Neuroartan identity system, public positioning, approved use cases, and the baseline rules for representing the company accurately."
+      },
       {
         "title": "Logo",
         "href": "/logo/",
-        "description": "Primary logo references, symbol usage, identity marks, and logo presentation guidance."
+        "description": "Use the official Neuroartan logo files exactly as provided. Preserve the approved proportions, spacing, contrast, and theme-aware behavior."
       },
       {
-        "title": "Fundamentals",
+        "title": "Wordmark",
+        "href": "/logo/",
+        "description": "Use the Neuroartan wordmark when the company name must be immediately readable. Do not redraw, stretch, crop, outline, recolor, or rebuild the wordmark manually."
+      },
+      {
+        "title": "Symbol",
+        "href": "/logo/",
+        "description": "Use the symbol only when context already identifies Neuroartan or when space is limited. Keep the symbol isolated, legible, and free from additional effects."
+      },
+      {
+        "title": "Dos and don’ts",
         "href": "/fundamentals/",
-        "description": "Core identity principles, brand purpose, public positioning, and visual foundation rules."
+        "description": "Follow the approved usage rules. Do not distort assets, imply endorsement, use the identity as a decorative motif, or place the brand inside unrelated systems."
       },
       {
-        "title": "Color & Typography",
-        "href": "/color-typography/",
-        "description": "Color system, typographic direction, contrast logic, and visual consistency rules."
-      },
-      {
-        "title": "Digital",
-        "href": "/digital/",
-        "description": "Digital presentation guidance for websites, profiles, social platforms, and product surfaces."
-      },
-      {
-        "title": "Public Assets",
+        "title": "Gallery",
         "href": "/public-assets/",
-        "description": "Publicly available logo and identity assets for references, listings, and brand discovery."
+        "description": "Use the gallery as a reference for clean applications of the Neuroartan identity across digital, editorial, product, documentation, and public presentation contexts."
+      },
+      {
+        "title": "Brand partnerships",
+        "href": "/fundamentals/",
+        "description": "When Neuroartan appears with another brand, keep balanced spacing, equal visual respect, clear hierarchy, and explicit approval before publication."
+      },
+      {
+        "title": "Typography",
+        "href": "/color-typography/",
+        "description": "Use system typography through Neuroartan tokens. The typographic system should be calm, precise, readable, and disciplined across all sizes."
+      },
+      {
+        "title": "Language",
+        "href": "/fundamentals/",
+        "description": "Describe Neuroartan as a cognitive systems company developing ICOS. Use clear language and avoid hype, metaphysical claims, or generic AI-chatbot framing."
+      },
+      {
+        "title": "Contact",
+        "href": "/public-assets/",
+        "description": "For brand permissions, asset review, media use, partnerships, commercial use, or co-branded presentation, request review before publication."
       }
     ],
     "presence": {
-      "title": "Brand presence",
-      "description": "Neuroartan is a cognitive systems company developing ICOS, a voice-trained cognitive operating system for memory, reflection, continuity, and structured intelligence. The brand identity supports a minimal, precise, and future-facing public presence for the company and its product ecosystem."
+      "title": "About Neuroartan",
+      "description": "Neuroartan is developing ICOS, a governed cognitive operating system for memory, reflection, continuity, and structured intelligence. The brand must communicate clarity, trust, technical discipline, and calm confidence without exaggerated claims."
     }
   },
   "pages": {
     "logo": {
       "eyebrow": "Logo",
-      "title": "Neuroartan logo system.",
-      "intro": "The Neuroartan logo system provides the primary public identity mark for company recognition, product association, and external brand references.",
+      "title": "Logo, wordmark, and symbol",
+      "intro": "The Neuroartan logo system is the primary identifier for the company and its product ecosystem. Use only official registry-backed files and preserve their spacing, proportions, color behavior, and clarity.",
       "sections": [
         {
-          "title": "Primary mark",
-          "description": "Use the primary Neuroartan mark for public brand references, official identity listings, and core company presentation."
+          "title": "Primary logo",
+          "description": "Use the full Neuroartan logo when the audience needs clear company identification, including websites, press references, partner pages, presentations, public listings, and documentation."
         },
         {
-          "title": "Symbol usage",
-          "description": "Use the symbol when space is limited or when the surrounding context already identifies Neuroartan."
+          "title": "Wordmark",
+          "description": "Use the wordmark when the name must remain readable at small sizes or when the symbol is already present nearby. Keep the wordmark proportion unchanged."
         },
         {
-          "title": "Clear presentation",
-          "description": "Keep the logo visually isolated, readable, and free from decorative distortion, excessive effects, or unrelated visual treatment."
+          "title": "Symbol",
+          "description": "Use the symbol where space is limited or where the surrounding context clearly identifies Neuroartan. The symbol should remain isolated, legible, and unmodified."
+        },
+        {
+          "title": "Clear space",
+          "description": "Keep generous space around every logo asset. Do not place text, icons, photos, borders, gradients, or interface controls too close to the logo."
+        },
+        {
+          "title": "Incorrect use",
+          "description": "Do not stretch, crop, recolor, rotate, outline, shadow, pattern-fill, mask, animate, or place the logo on noisy backgrounds that reduce clarity."
         }
       ]
     },
     "fundamentals": {
-      "eyebrow": "Fundamentals",
-      "title": "Brand foundations.",
-      "intro": "Neuroartan is positioned as a cognitive systems company focused on ICOS, governed intelligence, interface architecture, and profile-based continuity.",
+      "eyebrow": "Introduction",
+      "title": "Brand usage and positioning",
+      "intro": "Neuroartan brand usage should be accurate, restrained, and consistent. The identity must support a serious cognitive systems company, not a generic AI chatbot, decorative technology brand, or speculative concept.",
       "sections": [
         {
-          "title": "Brand purpose",
-          "description": "Create a precise public identity for cognitive systems, continuity, memory, reflection, and structured intelligence."
+          "title": "Positioning",
+          "description": "Describe Neuroartan as a cognitive systems company developing ICOS, a governed cognitive operating system for memory, reflection, continuity, and structured intelligence."
         },
         {
-          "title": "Public character",
-          "description": "The brand should remain minimal, intelligent, calm, future-facing, and technically credible."
+          "title": "Naming",
+          "description": "Use Neuroartan for the company and ICOS for the cognitive operating system. Do not rename, abbreviate, or merge these identities in public-facing materials."
         },
         {
-          "title": "Communication rule",
-          "description": "Public language should describe Neuroartan as a new cognitive systems and product ecosystem without theatrical or exaggerated claims."
+          "title": "Tone",
+          "description": "Use language that is clear, calm, precise, and technically credible. Avoid hype, theatrical language, metaphysical claims, or exaggerated promises."
+        },
+        {
+          "title": "Dos",
+          "description": "Use official files, preserve spacing, identify Neuroartan accurately, respect usage context, and keep the company identity visually secondary when it appears in another brand’s material."
+        },
+        {
+          "title": "Don’ts",
+          "description": "Do not imply endorsement, use the mark without permission, modify the identity, use Neuroartan assets as your own brand, or make Neuroartan more prominent than the primary brand in unrelated contexts."
+        },
+        {
+          "title": "Partnerships",
+          "description": "Do not imply partnership, sponsorship, certification, endorsement, or approval unless Neuroartan has explicitly authorized that relationship."
+        },
+        {
+          "title": "Permissions",
+          "description": "Use public assets for reference, listing, editorial, and approved presentation contexts. For commercial, campaign, merchandising, or co-branded use, request review first."
         }
       ]
     },
     "color-typography": {
-      "eyebrow": "Color & Typography",
-      "title": "Visual language system.",
-      "intro": "The visual system uses restrained contrast, quiet surfaces, precise typography, and token-governed spacing to support a professional public identity.",
+      "eyebrow": "Typography",
+      "title": "Typography and visual system",
+      "intro": "The visual system is minimal, token-governed, and theme-aware. It uses white as the light baseline and black as the dark baseline, with quiet contrast, clean spacing, and precise typography.",
       "sections": [
         {
-          "title": "Color",
-          "description": "Use a minimal neutral palette with controlled contrast and calm surface hierarchy."
+          "title": "Theme",
+          "description": "Use white as the light baseline and black as the dark baseline. Surfaces, cards, and panels should not introduce unnecessary tinted backgrounds or visible border boxes."
         },
         {
           "title": "Typography",
-          "description": "Use Apple-native system typography where possible, with careful weight, spacing, and scale discipline."
+          "description": "Use system typography through Neuroartan tokens with disciplined scale, controlled weight, and clear hierarchy. Large type should be purposeful, not decorative."
         },
         {
-          "title": "Token discipline",
-          "description": "Color, spacing, radius, typography, and surface values should be governed through shared tokens rather than local visual exceptions."
+          "title": "Spacing",
+          "description": "Use generous spacing to create clarity. Separate sections through rhythm and alignment rather than heavy borders, cards, shadows, or decorative containers."
+        },
+        {
+          "title": "Color",
+          "description": "Use minimal neutral color. Accent use should remain controlled and functional, never decorative or theatrical."
+        },
+        {
+          "title": "Tokens",
+          "description": "Use Neuroartan tokens for color, typography, spacing, radius, interaction, and layout. Do not create local visual exceptions when a governed token exists."
         }
       ]
     },
     "digital": {
       "eyebrow": "Digital",
-      "title": "Digital brand behavior.",
-      "intro": "Neuroartan digital surfaces should present the brand with clarity, minimal motion, strong readability, and source-owned visual assets.",
+      "title": "Digital presentation",
+      "intro": "Neuroartan digital presentation should be clear, responsive, accessible, and consistent with the broader product and website system. Brand assets must be source-owned and registry-backed.",
       "sections": [
         {
-          "title": "Website usage",
-          "description": "Use the brand identity consistently across public websites, product pages, documentation, and profile surfaces."
+          "title": "Websites",
+          "description": "Use the brand consistently across Neuroartan websites, documentation, product pages, profile surfaces, and public landing pages."
         },
         {
-          "title": "Interface usage",
-          "description": "Digital layouts should be quiet, structured, responsive, and aligned with the broader Neuroartan interface system."
+          "title": "Interfaces",
+          "description": "Interface usage should prioritize clarity, reading comfort, stable layout, and restrained motion. Do not use decorative hover movement or theatrical effects."
+        },
+        {
+          "title": "Social profiles",
+          "description": "Use official assets for profile images, banners, and listings. Keep identity presentation simple, readable, and consistent across platforms."
+        },
+        {
+          "title": "Imagery",
+          "description": "Use imagery that supports cognitive systems, product clarity, research, design, and public trust. Avoid generic AI clichés, excessive gradients, and noisy symbolic visuals."
         },
         {
           "title": "Asset ownership",
-          "description": "Icons and identity assets should come from the synced public registry and should not be duplicated manually across repositories."
+          "description": "Icons, logos, and brand images must come from the governed source and synced public registry. Do not recreate assets manually inside page-level folders."
         }
       ]
     },
     "public-assets": {
-      "eyebrow": "Public Assets",
-      "title": "Public brand assets.",
-      "intro": "This section will provide public-facing Neuroartan identity assets for reference, listings, discovery, and approved external use.",
+      "eyebrow": "Gallery",
+      "title": "Public assets and applications",
+      "intro": "Use these assets and references for approved public references, listings, editorial coverage, directories, presentations, and identity discovery. Always preserve the files as provided.",
       "sections": [
         {
           "title": "Logo files",
-          "description": "Provide accessible logo references for public listings, press references, and brand discovery pages."
+          "description": "Use official Neuroartan logo files from the public registry. Do not export substitute versions from screenshots or manually recreated artwork."
         },
         {
-          "title": "Usage references",
-          "description": "Publish clear rules for correct public usage, visual spacing, and identity consistency."
+          "title": "Identity references",
+          "description": "Use the official name, logo, symbol, and description when referencing Neuroartan in directories, product listings, press materials, or external profiles."
         },
         {
-          "title": "Discovery metadata",
-          "description": "Support search engines, brand directories, and external platforms with clean metadata and structured public identity information."
+          "title": "Gallery references",
+          "description": "Showcase brand applications through original Neuroartan examples: logo cards, typography scale, interface views, publication covers, profile imagery, and approved digital compositions."
+        },
+        {
+          "title": "Usage review",
+          "description": "For partnership, commercial, campaign, merchandising, or co-branded use, request review before publication."
+        },
+        {
+          "title": "Contact",
+          "description": "For brand permissions, asset review, media use, or public identity questions, contact Neuroartan through the official public support channel."
         }
       ]
     }

@@ -11,10 +11,10 @@ export function renderBrandPage(mount, data) {
   );
 
   const section = createElement("section", "brand-section");
-  const grid = createElement("div", "brand-card-grid");
+  const grid = createElement("div", "brand-guideline-list");
 
   data.sections.forEach((item) => {
-    const card = createElement("article", "brand-card");
+    const card = createElement("article", "brand-guideline-item");
     card.append(
       createElement("h3", null, item.title),
       createElement("p", null, item.description)

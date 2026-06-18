@@ -1,14 +1,14 @@
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
 
   --text-primary-color: #171717;
   --text-secondary-color: rgba(23, 23, 23, 0.68);
   --text-tertiary-color: rgba(23, 23, 23, 0.48);
-  --border-color: rgba(23, 23, 23, 0.12);
-  --control-border-color: rgba(23, 23, 23, 0.14);
-  --surface-primary: #f7f4ee;
-  --surface-secondary: rgba(255, 255, 255, 0.72);
-  --control-surface: rgba(255, 255, 255, 0.64);
+  --border-color: transparent;
+  --control-border-color: transparent;
+  --surface-primary: #ffffff;
+  --surface-secondary: transparent;
+  --control-surface: transparent;
 
   --font-base: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
   --font-size-body-1: 1rem;
@@ -47,7 +47,7 @@
   --interaction-duration-fast: 160ms;
   --interaction-duration-standard: 260ms;
 
-  --shadow-soft: 0 24px 80px rgba(23, 23, 23, 0.08);
+  --shadow-soft: none;
 
   --brand-color-bg: var(--surface-primary);
   --brand-color-surface: var(--surface-secondary);
@@ -77,10 +77,25 @@ html[data-theme-effective="dark"] {
   --text-primary-color: rgba(255, 255, 255, 0.94);
   --text-secondary-color: rgba(255, 255, 255, 0.66);
   --text-tertiary-color: rgba(255, 255, 255, 0.48);
-  --border-color: rgba(255, 255, 255, 0.12);
-  --control-border-color: rgba(255, 255, 255, 0.14);
-  --surface-primary: #050505;
-  --surface-secondary: rgba(255, 255, 255, 0.055);
-  --control-surface: rgba(255, 255, 255, 0.07);
-  --shadow-soft: 0 24px 80px rgba(0, 0, 0, 0.34);
+  --border-color: transparent;
+  --control-border-color: transparent;
+  --surface-primary: #000000;
+  --surface-secondary: transparent;
+  --control-surface: transparent;
+  --shadow-soft: none;
+}
+
+html[data-theme-effective="light"],
+html:not([data-theme-effective]) {
+  color-scheme: light;
+
+  --text-primary-color: #171717;
+  --text-secondary-color: rgba(23, 23, 23, 0.68);
+  --text-tertiary-color: rgba(23, 23, 23, 0.48);
+  --border-color: transparent;
+  --control-border-color: transparent;
+  --surface-primary: #ffffff;
+  --surface-secondary: transparent;
+  --control-surface: transparent;
+  --shadow-soft: none;
 }

@@ -1,57 +1,65 @@
 .brand-hero {
   display: grid;
-  gap: var(--spacing-lg);
-  padding-block: clamp(var(--spacing-3xl), 13vh, 8rem) clamp(var(--spacing-2xl), 9vh, 6rem);
+  gap: var(--spacing-xl);
+  max-inline-size: 56rem;
+  padding-block: clamp(var(--spacing-4xl), 16vh, 10rem) clamp(var(--spacing-3xl), 10vh, 6rem);
 }
 
 .brand-eyebrow {
-  margin: var(--spacing-none);
+  margin: 0;
   color: var(--text-secondary-color);
   font-size: var(--font-size-body-2);
   line-height: 1.4;
 }
 
 .brand-title {
-  max-inline-size: 58rem;
-  margin: var(--spacing-none);
+  max-inline-size: 54rem;
+  margin: 0;
   color: var(--text-primary-color);
-  font-size: clamp(3.25rem, 9vw, 8rem);
+  font-size: clamp(3.5rem, 8vw, 7.5rem);
   font-weight: 600;
-  letter-spacing: -0.078em;
-  line-height: 0.9;
+  letter-spacing: -0.076em;
+  line-height: 0.92;
 }
 
 .brand-intro,
 .brand-section-copy {
-  max-inline-size: 44rem;
-  margin: var(--spacing-none);
+  max-inline-size: 46rem;
+  margin: 0;
   color: var(--text-secondary-color);
-  font-size: clamp(var(--font-size-body-1), 2vw, 1.125rem);
-  line-height: 1.7;
+  font-size: clamp(var(--font-size-body-1), 1.6vw, 1.125rem);
+  line-height: 1.72;
 }
 
 .brand-section {
   display: grid;
-  gap: var(--spacing-xl);
-  padding-block: clamp(var(--spacing-2xl), 8vh, 5.5rem);
-  border-block-start: var(--border-width-hairline) solid var(--border-color);
+  gap: var(--spacing-2xl);
+  padding-block: clamp(var(--spacing-3xl), 10vh, 7rem);
+  border-block-start: 0;
 }
 
 .brand-section h2 {
-  margin: var(--spacing-none);
+  max-inline-size: 44rem;
+  margin: 0;
   color: var(--text-primary-color);
-  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-size: clamp(2rem, 4vw, 3.75rem);
   font-weight: 600;
-  letter-spacing: -0.04em;
-  line-height: 1;
+  letter-spacing: -0.064em;
+  line-height: 0.98;
 }
 
 @media (max-width: 720px) {
   .brand-hero {
-    padding-block: var(--spacing-3xl) var(--spacing-2xl);
+    gap: var(--spacing-lg);
+    padding-block: var(--spacing-4xl) var(--spacing-3xl);
   }
 
   .brand-title {
-    font-size: clamp(3rem, 17vw, 5.25rem);
+    font-size: clamp(3.25rem, 16vw, 5.5rem);
+  }
+
+  .brand-section {
+    gap: var(--spacing-xl);
+    padding-block: var(--spacing-3xl);
   }
 }
